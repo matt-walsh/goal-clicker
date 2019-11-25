@@ -1,0 +1,102 @@
+body{
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: black;
+    color: rgb(202, 202, 202);
+}
+
+.responsive-image{
+    max-width: 100%;
+    max-height: 100%;
+
+    width: 100%;
+    height: 100%
+}
+
+#clicker{
+    border: 1px solid black;
+    border-radius: 7px;
+    font-weight: bold;
+    background-image: repeating-linear-gradient(135deg, rgb(0,0,0), rgb(163, 163, 4), rgb(0,0,0) 50px);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgb(202, 202, 202);
+    width: 100%;
+    height: 200%;
+}
+
+#clicker:active{
+    background-image: repeating-linear-gradient(135deg, rgb(25,25,25), rgb(202, 202, 0), rgb(25,25,25) 50px);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgb(202, 202, 202);
+}
+
+/* Timer Status Styles */
+#timer-display{
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+   
+}
+
+#timer-display span{
+    font-weight: 600;
+    font-size: 2em;
+}
+
+#timer-display label{
+    display: block;
+
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+/* Earth Status Styles */
+#earth-status{
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+}
+
+#earth-status span{
+    display: block;
+    padding: 5%;
+
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+#earth-status label{
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+/* Generator Status Styles */
+#generator-status{
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+}
+
+#generator-status span{
+    display: block;
+
+    padding: 5%;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+#generator-status label{
+    font-weight: 400;
+    font-size: 1.3em;    
+}
+
+#generator-control{
+    padding: 3%;
+}
+
+#start-generator{
+    border: 3px solid rgb(0, 85, 0);
+    background-color: green;
+}
+
+#stop-generator{
+    border: 3px solid rgb(85,0,0);
+    background-color: rgb(128,0,0);
+}
