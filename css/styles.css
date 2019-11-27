@@ -57,7 +57,6 @@ body{
 
 #earth-status span{
     display: block;
-    padding: 5%;
 
     font-weight: 600;
     font-size: 1.8em;
@@ -77,7 +76,6 @@ body{
 #generator-status span{
     display: block;
 
-    padding: 5%;
     font-weight: 600;
     font-size: 2em;
 }
@@ -88,7 +86,8 @@ body{
 }
 
 #generator-control{
-    padding: 3%;
+    text-align: center;
+    background-color: rgb(51,51,51);
 }
 
 #start-generator{

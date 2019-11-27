@@ -1,8 +1,7 @@
-/* Grid Container*/
 #game-area{
     display: grid;
     grid-template-columns: repeat (10% 10);
-    grid-template-rows: 33% 33% 33%
+    grid-template-rows: 33% 33% 33%;
 }
 
 #main-display{
@@ -12,7 +11,7 @@
 
 #status-panel{
     display: grid;
-    grid-template-rows: 15% 35% 50%;
+    grid-template-rows: 15% 35% 40% 10%;
 
     grid-column: 8 / 11;
     grid-row: 1 / 3

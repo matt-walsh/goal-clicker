@@ -3,8 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title></title>
+  <title>Goal Clicker</title>
   <meta name="description" content="">
   <meta name="author" content="Matt.Walsh">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,26 +34,26 @@
         <label for="counter">Days Left</label>
       </div>
       <div id="earth-status">
-        <span id="humanity-mood">50</span>
-        <label for="humanity-mood">Humanities Average Happiness</label>
+        <span id="humanity-happiness">50</span>
+        <label for="humanity-happiness">Humanities Average Happiness</label>
         <span id="humanity-productivity">50</span>
         <label for="humanity-productivity">Humanities Average Productivity</label>
       </div>
       <div id="generator-status">
         <div id=status-box>
           <!-- Running, Paused, Offline-->
-          <span id="status-text"></span>
+          <span id="status-text">OFFLINE</span>
         </div>
         <div id="goal-generation">
           <span id="generated-per-day">1.5</span>
           <label for="generated-per-day">Goal Generated Per Day</label>
           <span id="cost-to-generate">5</span>
-          <label for="cost-to-generate">Goal Juice Cost to Run Generator</label>
-          <div id="generator-control">
-              <button id="start-generator">Start Generator</button>
-              <button id="stop-generator">Stop Generator</button>
-          </div>       
+          <label for="cost-to-generate">Goal Juice Cost to Run Generator</label>       
         </div>
+      </div>
+      <div id="generator-control">
+        <button id="start-generator">Start Generator</button>
+        <button id="stop-generator">Stop Generator</button>
       </div>
       
     </section>
@@ -63,6 +62,8 @@
     </section>
   </section>
 
+  <script src="js/game.js"></script>
   <script src="js/event-handlers.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
