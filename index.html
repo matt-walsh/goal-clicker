@@ -8,6 +8,7 @@
   <meta name="author" content="Matt.Walsh">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/styles.css">
 
@@ -30,8 +31,15 @@
     </section>
     <section id="status-panel">
       <div id="timer-display">
-        <span id="counter">300</span>
-        <label for="counter">Days Left</label>
+        <div class="days-container">
+            <span id="counter"></span>
+            <label for="counter">Days Left</label>
+        </div>
+        <div class="goal-container">
+            <span id="goal-juice">0</span>
+            <label for="goal-juice">Goal Juice</label>
+        </div>
+        
       </div>
       <div id="earth-status">
         <span id="humanity-happiness">50</span>
@@ -42,13 +50,13 @@
       <div id="generator-status">
         <div id=status-box>
           <!-- Running, Paused, Offline-->
-          <span id="status-text">OFFLINE</span>
+          <div id="status-text"></div>
         </div>
         <div id="goal-generation">
           <span id="generated-per-day">1.5</span>
-          <label for="generated-per-day">Goal Generated Per Day</label>
+          <label for="generated-per-day">Productivity /Day</label>
           <span id="cost-to-generate">5</span>
-          <label for="cost-to-generate">Goal Juice Cost to Run Generator</label>       
+          <label for="cost-to-generate">Goal Juice /Day</label>       
         </div>
       </div>
       <div id="generator-control">
@@ -62,6 +70,7 @@
     </section>
   </section>
 
+  <script src="js/generator.js"></script>
   <script src="js/game.js"></script>
   <script src="js/event-handlers.js"></script>
   <script src="js/main.js"></script>
