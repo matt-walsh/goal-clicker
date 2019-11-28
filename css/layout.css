@@ -29,7 +29,7 @@
 
 /* Modal Layout */
 #message-modal{
-    display: block;
+    display: none;
     position: fixed;
     padding-top: 20%;
     width: 100%;
