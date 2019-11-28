@@ -10,7 +10,6 @@
 - Goal Juice
     - Player clicks a button to generate 'goal juice'. 
     - This juice is used to power the 'goal generator'
-    - This juice can also be used to purchase upgrades
 - Goal Generator
     - The 'goal generator' powers humanity to resume following their goals
     - While running, the generator drains 'goal juice' at a specified rate
@@ -19,7 +18,7 @@
 - Humanities Progress
     - Tracked in 'real time'
         - 1 second = 1 day, or something
-    - Progress increases as long as the 'goal generator' is running
+    - Productivity increases as long as the 'goal generator' is running
     - When milestones are reached, it unlocks new abilites, but causes the generator to consume more 'goal juice'
 ## Goals
 - Help humanity be productive again
@@ -27,7 +26,7 @@
 
 ## Winning
 A players wins the the game if:
-- They generate enough 'Goal Juice' to fund humans to another planet
+- They generate enough 'Productivity' to fund humans to another planet
 
 What happens?
 - The score gets added to the score board
@@ -35,7 +34,7 @@ What happens?
 
 ## Losing
 A player loses the game if:
-- The timer reaches 5min
+- The timer counts down to 0
 
 What happens?
 - The score gets added to the score board
