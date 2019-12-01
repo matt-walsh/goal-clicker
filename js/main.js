@@ -58,14 +58,6 @@ function HideModal(){
     document.getElementById("message-modal").style.display = "none";
 }
 
-// function GetHighScore(){
-//     let message = `Congratulations! your score was: ${this.game.GetScore}. Please enter your name to claim your spot on the highscore page.`
-//     let scoreName = window.prompt(message);
-//     if(scoreName === null || scoreName === ""){
-
-//     }
-// }
-
 //Function called every tick to update the game
 function GameLoop(){
     //Get elments that will change during execution
