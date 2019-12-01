@@ -17,7 +17,7 @@ class Generator {
         this.costToGenerate = 0.5;
         this.costMultiplier = 1;
 
-        this.generatedPerTick = 0.2;
+        this.generatedPerTick = 0.05;
         this.speedMultiplyier = 1;
     }
 

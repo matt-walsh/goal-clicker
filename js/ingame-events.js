@@ -22,7 +22,7 @@ const INGAME_EVENTS = [
     {
         "eventText": "Our techs have used the knowledge they gained from reading The Microsoft Specialist Guide to Microsoft Windows 10 to increase our Generator efficiency.",
         "modifierType" : MODIFIER_TYPES.GENERATOR_PRODUCTIVITY,
-        "value" : 0.5
+        "value" : 0.05
     },
     {
         "eventText": "The humans are getting more exercise! This is great news for their mental health.",
@@ -67,7 +67,7 @@ const INGAME_EVENTS = [
     {
         "eventText": "Our generator needs maintenance, but the instructions are only recorded in a language we don't speak!",
         "modifierType" : MODIFIER_TYPES.GENERATOR_PRODUCTIVITY,
-        "value" : -0.3
+        "value" : -0.03
     },
     {
         "eventText": "Our main server has crashed! Fortunately The Microsoft Specialist Guide to Microsoft Windows 10 has instructions to help us recover!",
@@ -97,6 +97,6 @@ const INGAME_EVENTS = [
     {
         "eventText": "Giving our shipmates their own User Account with ACLs has increased security and they are causing less mistakes",
         "modifierType" : MODIFIER_TYPES.GENERATOR_PRODUCTIVITY,
-        "value" : 0.3
+        "value" : 0.03
     }
 ];
